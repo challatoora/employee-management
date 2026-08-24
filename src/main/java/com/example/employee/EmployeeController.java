@@ -10,9 +10,4 @@ public class EmployeeController {
     public String home() {
         return "Employee Management Application is running!";
     }
-
-    @GetMapping("/employees")
-    public String employees() {
-        return "Employee API is working!";
-    }
 }
